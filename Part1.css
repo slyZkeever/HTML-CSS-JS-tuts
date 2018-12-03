@@ -1,0 +1,101 @@
+/*this is a comment
+
+selected tag //basic format
+{
+    property: value
+}
+*/
+
+/*h1
+{
+    color: blue;
+}
+
+li
+{
+    color: rgb(188, 52, 47);
+}
+
+h3
+{
+    color: #91bc2f;
+}
+
+p
+{
+    color: rgba(17, 0, 255, 0.753);
+}
+
+body
+{
+    /*background-color: grey;*/ /*
+    background: url(https://www.treebo.com/blog/wp-content/uploads/2017/12/Beaches-in-India_1.jpg);
+    background-repeat: repeat;
+}
+
+div 
+{
+    background-color: bisque;
+    border-color: blue;
+    border-width: 2px;
+    border-style: double;
+}
+
+p
+{
+    color: brown;
+}
+
+span
+{
+    background-color: royalblue;
+    color: black;
+}
+
+.firstdiv*/ /* for classes */
+/*{
+    color: red;
+}
+
+.seconddiv
+{
+    color: blue
+}
+
+#sigleout /* for id */
+/*{
+    color: green;
+    text-decoration: line-through;
+}
+
+h3 + ul
+{
+    border: 2px dotted purple
+}
+
+li a
+{
+    color: red;
+}
+
+li a[href="https://www.facebook.com/"]
+{
+    color: cadetblue;
+    border: 2px solid orangered;
+
+}*/
+
+li
+{
+    color: red;
+}
+
+.topitems /* "." for class name*/
+{
+    color: blue;
+}
+
+#two  /* "#" for id name*/
+{
+    border: 1px solid black;
+}

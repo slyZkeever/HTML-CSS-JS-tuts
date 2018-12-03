@@ -1,0 +1,53 @@
+body
+{
+    background: rgb(171, 220, 232);
+}
+
+h1
+{
+    border: 2px solid black;
+}
+
+div p
+{
+    background: #e8e4ab;
+}
+
+h2
+{
+    color: #9336f7;
+}
+
+#itemone
+{
+    color: #9336f7;
+    text-decoration: overline; /* draw line above it*/
+}
+
+a
+{
+    color: red;
+}
+
+#textblock
+{
+    border: 5px solid grey;
+    width: 800px;
+    height: 400px;
+}
+
+input
+{
+    border : 2px solid rgb(rgb(255, 0, 0), 0, 0)
+}
+
+.exit
+{
+    background: blue;
+    border: 4px dashed yellow;
+}
+
+a:visited
+{
+    color: green;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>feedback</title>
+    </head>
+    <body>
+        <h1> Feedback </h1>
+        <form method = "GET"> 
+            <!-- <input type="radio" name = "" , value = ""> -->
+            <h2> Are you human?</h2>
+            
+            <label for = "yes"> yes </label>
+            <input id = "yes" type= "radio" name = "human" value = "yes">
+            
+            <label for = "no"> no </label>
+            <input id = "no" type= "radio" name = "human" value = "no">
+            <!-- if you want to connect radio button, give them same name-->
+
+            <h2> Rate your humanity </h2>
+
+            <select name = "humanity">
+                <option value = "worthless"> 1 </option>
+                <option value = "fucked"> 2 </option>
+                <option value = "grey"> 3 </option>
+                <option value = "trying hard"> 4 </option>
+                <option value = "god"> 5 </option>                
+            </select>
+
+            <h2> any other confession? </h2> 
+            <textarea name = "confession" row = "8" cols = "100"> </textarea>
+            
+            <input type="submit" name = "" value = "Submit">
+        </form>
+
+    </body>
+</html>
