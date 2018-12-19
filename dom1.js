@@ -38,3 +38,35 @@ specID.getAttribute("");
 
 specID.setAttribute(attribute, value);
 */
+
+/*var HeadOne = document.querySelector("#one");
+
+var HeadTwo = document.querySelector("#two");
+
+var HeadThree = document.querySelector("#three");
+
+HeadOne.addEventListener("mouseover", function()
+{
+    HeadOne.textContent = "mouse on";
+    HeadOne.style.color = "red";
+} 
+)
+
+HeadOne.addEventListener("mouseout", function () {
+    HeadOne.textContent = "Hover over";
+    HeadOne.style.color = "black";
+}
+)
+
+HeadTwo.addEventListener("click", function () {
+    HeadTwo.textContent = "clicked on";
+    HeadTwo.style.color = "green";
+}
+)
+
+HeadThree.addEventListener("dblclick", function () {
+    HeadThree.textContent = "double clicked";
+    HeadThree.style.color = "blue";
+}
+)*/
+
