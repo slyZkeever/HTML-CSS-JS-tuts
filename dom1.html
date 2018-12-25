@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
-    
+
     <title>Page Title</title>
-    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
-    
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="dom1.css">
+
+  
 </head>
+
 <body>
-<!--<h1> Welcome to DOM </h1> 
+    <!--<h1> Welcome to DOM </h1> 
     <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium recusandae eligendi ea, ut sequi officia porro rem
         vitae officiis, amet velit dolore ab magnam! Earum, in accusantium? Quod, est necessitatibus.
@@ -30,10 +37,34 @@
 
     <h1 id = 'three'> 2x click </h1> -->
 
-    <h1> Welcome to Tic-Tac-Toe</h1>
+    <div class="container">
+        <!-- container to contain the attributes within div or just to center align them -->
+        <div class="jumbotron">
+            <h1 class="display-4">Welcome to Tic Tac Toe</h1>
+            <button id = "butn" class="btn btn-primary btn-sm"> Restart </button>
+        </div>
+    </div>
 
-    
+    <table>
+        <tr>
+            <td id='a'></td>
+            <td id='b'></td>
+            <td id='c'></td>
+        </tr>
+        <tr>
+            <td id='d'></td>
+            <td id='e'></td>
+            <td id='f'></td>
+        </tr>
+        <tr>
+            <td id='g'></td>
+            <td id='h'></td>
+            <td id='i'></td>
+        </tr>
 
+    </table>
 </body>
+
 <script src="dom1.js"></script>
+
 </html>
