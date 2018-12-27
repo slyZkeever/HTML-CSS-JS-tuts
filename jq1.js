@@ -26,5 +26,14 @@ listItems.eq(-1).css("color", "orange"); // -1 = last item
 $("h1").text("fuck off"); //change text. h1 is not saved
 
 $("h1").html("<b> fuck off </b>"); //using "html" to add tag property.
+
+$("input").eq(1).attr("type","checkbox") //change the type of input(submit to checkbox)
  
+$("input").eq(0).val("NewValue"); //change value of input
+
+$("h1").addClass("TurnBlue"); //add class(TurnBlue) properties to tag(case sensitive)
+
+$("h1").removeClass("TurnBlue"); //remove class
+
+$("h1").toggleClass("TurnBlue"); //toggle class 
 */
